@@ -1,0 +1,21 @@
+body {
+  background-color: white;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+.nuxt-link-exact-active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
